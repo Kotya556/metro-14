@@ -8,15 +8,11 @@
   physicalDesc: reagent-physical-desc-opaque
   contrabandSeverity: Minor
   metabolisms:
-    Radiation:
+    Poison:
       effects:
       - !type:HealthChange
         damage:
           types:
-            Radiation: 5
-    Genetic:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Cellular: 3
+            Radiation: 3
+            Poison: 2
+            Cellular: 1

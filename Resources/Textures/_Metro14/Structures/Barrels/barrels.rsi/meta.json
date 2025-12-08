@@ -1,12 +1,27 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Stalker14 CLA; radiation, radiation_broken, yellow edited and added by Kot",
+  "copyright": "Taken from https://github.com/stalker14-project/stalker-14",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
+    {
+      "name": "base"
+    },
+    {
+      "name": "explosive"
+    },
+    {
+      "name": "radiation"
+    },
+    {
+      "name": "radiation_broken"
+    },
+    {
+      "name": "fireplace"
+    },
     {
       "name": "wooden"
     },

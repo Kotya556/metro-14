@@ -24,7 +24,6 @@
     canCollide: false
   - type: Tag
     tags:
-      - HideContextMenu
   - type: Fixtures
     fixtures:
       fix1:
