@@ -1,14 +1,7 @@
-- type: job
-  id: M14SecurityVDNKH
-  name: Охранник ВДНХ
-  description: Вы обладаете всей полнотой власти на этой станции.
-  playTimeTracker: M14SecurityVDNKH
-  startingGear: M14SecurityVDNKHGear
-  icon: "JobIconVDNKH"
-  canBeAntag: true
+####################
 
 - type: startingGear
-  id: M14SecurityVDNKHGear
+  id: SecurityVDNKHGear
   equipment:
     head: ClothingHeadHelmetScrap
     jumpsuit: M14ClothingUniformTelogreykaBlack

@@ -1,11 +1,11 @@
 ####################
 
 - type: startingGear
-  id: SecurityTechGear
+  id: SoldierSpartaGear
   equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
     mask: ClothingMaskNeckGaiter
-    jumpsuit: M14ClothingUniformTelogreykaBlack
     id: M14Tablet
     shoes: ClothingShoesBootsCombatFilled
-    gloves: ClothingHandsGlovesFingerless
-    back: ClothingBackpack
+    gloves: ClothingHandsGlovesColorBlack
+    back: ClothingMilitaryBackpack

@@ -1,14 +1,14 @@
 ####################
 
 - type: startingGear
-  id: PolitHandRedLineGear
+  id: PolitHandHydraGear
   equipment:
-    head: ClothingHeadHatBeretSecurity
-    mask: ClothingMaskNeckGaiterRed
+    head: ClothingHeadHatBeretSecurityPilot
+    mask: ClothingMaskNeckGaiter
     jumpsuit: M14ClothingUniformTelogreykaBlack
     id: M14Tablet
     shoes: ClothingShoesLeather
-    gloves: ClothingHandsGlovesFingerless
+    gloves: ClothingHandsGlovesColorBlack
     back: ClothingBackpackSatchel
     pocket1: LuxuryPen
   inhand:

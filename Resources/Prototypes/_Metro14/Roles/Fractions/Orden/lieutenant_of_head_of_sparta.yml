@@ -1,12 +1,11 @@
 ####################
 
 - type: startingGear
-  id: HeadOfHydraGear
+  id: LieutenantOfHeadOfSpartaGear
   equipment:
-    head: M14ClothingHeadHatBeaverHat
-    neck: M14ClothingNeckCloakHydra
+    head: ClothingHeadHatBeretSecurityPilot
     mask: ClothingMaskNeckGaiter
-    jumpsuit: M14ClothingUniformTelogreykaBlack
+    jumpsuit: ClothingUniformJumpsuitTacticool
     id: M14Tablet
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesCombat
