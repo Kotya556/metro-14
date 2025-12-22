@@ -7,6 +7,9 @@
     - type: Sprite
       sprite: _Metro14/Objects/Devices/boombox.rsi
       state: boombox
+    - type: ItemSlots
+    - type: ContainerContainer
+    - type: DeviceLinkSource
     - type: BoomBox
       slots:
         boombox_slot:
