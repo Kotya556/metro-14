@@ -1,0 +1,42 @@
+- type: gameMap
+  id: Metro14
+  mapName: 'Metro'
+  mapPath: /Maps/_Metro14/Metro/MetroV21.yml
+  minPlayers: 0
+  maxPlayers: 200
+  stations:
+    Metro14:
+      stationProto: StandardNanotrasenStation
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: '{0} Метро {1}'
+        nameGenerator:
+          !type:NanotrasenNameGenerator
+          prefixCreator: '14-SB'
+      - type: StationJobs
+        availableJobs:
+          # Tehniki
+          NachalnikTexniki: [ 1, 1 ]
+          Texniki: [ 3, 3 ]
+          # Sparta
+          M14Polkovnik: [ 1, 1 ]
+          M14PodPolkovnik: [ 1, 1 ]
+          M14Medicsparta: [ 1, 1 ]
+          M14Soldier: [ 4, 4 ]
+          # RedLine
+          M14SoldierRedline: [ 10, 10 ]
+          M14Politruk: [ 1, 1 ]
+          M14Gensek: [ 1, 1 ]
+          # VDNH
+          OfficerVdnh: [ 6, 6 ]
+          Stalker: [ -1, -1 ]
+          NachalnikVdnh: [ 1, 1 ]
+          # Hydra
+          M14Furer: [ 1, 1 ]
+          M14Ministr: [ 1, 1 ]
+          M14SoldierGydra: [ 10, 10 ]
+          # Hansa
+          OfficerGanza: [ 9, 9 ]
+          TorgAgentGanza: [ 1, 1 ]
+          NachalnikStanciiganza: [ 1, 1 ]
+          GrazhdaninGanzi: [ 10, 10 ]

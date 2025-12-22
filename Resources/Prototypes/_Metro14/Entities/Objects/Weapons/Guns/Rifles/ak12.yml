@@ -22,14 +22,14 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: M14expendedmag
+        startingItem: M14MagazineLightRifleExtended
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
             - MagazineLightRifle
-            - M14expendedmag
+            - M14MagazineLightRifleExtended
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
@@ -47,29 +47,3 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-
-- type: entity
-  id: M14expendedmag
-  name: расширенный магазин
-  parent: BaseMagazineLightRifle
-  description: Магазин на 45 патронов
-  components:
-  - type: BallisticAmmoProvider
-    capacity: 45
-    proto: CartridgeLightRifle
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: inhand-left-mag
-      right:
-      - state: inhand-right-mag
-
-
-- type: Tag
-  id: M14expendedmag
